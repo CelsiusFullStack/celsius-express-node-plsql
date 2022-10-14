@@ -1,7 +1,3 @@
-//! const dotenv = require('dotenv')
-//! dotenv.config()
-
-//? Habilita acceder a las variables de entorno de mi .env
 require('dotenv').config()
 
 const config = {
@@ -15,5 +11,4 @@ const config = {
         name: process.env.DB_NAME
     }
 }
-
 module.exports = config;

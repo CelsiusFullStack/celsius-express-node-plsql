@@ -7,7 +7,6 @@ const app = express()
 db.authenticate()
     .then(() => console.log('DB Authentication Succesfully') )
     .catch((err) => console.log(err))
-
 db.sync()
   .then(() => console.log('Database synced'))
   .catch(err => console.log(err))
