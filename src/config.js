@@ -5,7 +5,7 @@
 require('dotenv').config()
 
 const config = {
-    port: process.env.PORT || 8500,
+    port: process.env.PORT || 8000,
     nodeEnv: process.env.NODE_ENV || 'development',
     db: {
         port: process.env.DB_PORT || 5432,
